@@ -29,6 +29,7 @@ font-family: 'Quicksand', sans-serif;
 html{
     font-size: 16px;
     font-family: var(--ff-text);
+    scroll-behavior: smooth;
 }
 
 body{
@@ -52,6 +53,7 @@ a, li{
 }
 
 .headerContent{
+    max-width: 1200px;
     padding: 1rem 0 ;
     display: flex;
     justify-content: space-between;
@@ -73,7 +75,7 @@ a, li{
 
 .btn{
     background-color: var(--yellow-green);
-    color: white;
+    color: var(--drab-dark-brown);
     padding: .5rem;
     border-radius: 30px;
     transition: all .3s;
@@ -82,4 +84,17 @@ a, li{
 .btn:hover{
     background-color: var(--ash-gray);
     color: var(--smoky-black);
+}
+
+.hero{
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.hero h1{
+    font-family: var(--ff-title);
+    color: var(--yellow-green);
 }
