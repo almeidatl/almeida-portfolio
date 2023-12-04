@@ -5,9 +5,42 @@
 }
 
 :root{
-    
+
 }
 
 html{
     font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.headerContainer{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+}
+
+.headerContent{
+    padding: 1rem 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
