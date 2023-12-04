@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;700;900&family=Nova+Square&family=Quicksand:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Exo 2', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +13,27 @@
 }
 
 :root{
+    /* Fontes */
+    --ff-title: 'Nova Square', sans-serif;
+    --ff-subtitle: 'Quicksand', sans-serif;
+    --ff-text: 'Exo 2', sans-serif;
 
+    /* CSS HEX */
+    --smoky-black: #100b00ff;
+    --yellow-green: #85cb33ff;
+    --nyanza: #efffc8ff;
+    --ash-gray: #a5cbc3ff;
+    --drab-dark-brown: #3b341fff;
 }
 
 html{
     font-size: 16px;
+    font-family: var(--ff-text);
+}
+
+body{
+    background-color: var(--smoky-black);
+    color: var(--nyanza);
 }
 
 .wrapper{
@@ -20,7 +44,7 @@ html{
 a, li{
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: var(--nyanza);
 }
 
 .headerContainer{
@@ -37,10 +61,25 @@ a, li{
 .logo{
     display: flex;
     align-items: center;
+    font-family: var(--ff-title);
 }
 
 .navBar{
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-family: var(--ff-subtitle);
+}
+
+.btn{
+    background-color: var(--yellow-green);
+    color: white;
+    padding: .5rem;
+    border-radius: 30px;
+    transition: all .3s;
+}
+
+.btn:hover{
+    background-color: var(--ash-gray);
+    color: var(--smoky-black);
 }
