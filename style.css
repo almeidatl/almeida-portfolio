@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;700;900&family=Nova+Square&family=Quicksand:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;700;900&family=Nova+Square&family=Quicksand:wght@300;400;700&display=swap");
 
 /* 
 font-family: 'Exo 2', sans-serif;
@@ -6,95 +6,275 @@ font-family: 'Nova Square', sans-serif;
 font-family: 'Quicksand', sans-serif;
 */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* GLOBAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    /* Fontes */
-    --ff-title: 'Nova Square', sans-serif;
-    --ff-subtitle: 'Quicksand', sans-serif;
-    --ff-text: 'Exo 2', sans-serif;
+:root {
+  /* Fontes */
+  --ff-title: "Nova Square", sans-serif;
+  --ff-subtitle: "Quicksand", sans-serif;
+  --ff-text: "Exo 2", sans-serif;
 
-    /* CSS HEX */
-    --smoky-black: #100b00ff;
-    --yellow-green: #85cb33ff;
-    --nyanza: #efffc8ff;
-    --ash-gray: #a5cbc3ff;
-    --drab-dark-brown: #3b341fff;
+  /* CSS HEX */
+  --smoky-black: #100b00ff;
+  --yellow-green: #85cb33ff;
+  --nyanza: #efffc8ff;
+  --ash-gray: #a5cbc3ff;
+  --drab-dark-brown: #3b341fff;
 }
 
-html{
-    font-size: 16px;
-    font-family: var(--ff-text);
-    scroll-behavior: smooth;
+html {
+  font-size: 16px;
+  font-family: var(--ff-text);
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: var(--smoky-black);
-    color: var(--nyanza);
+body {
+  background-color: var(--smoky-black);
+  color: var(--nyanza);
+  overflow-x: hidden;
 }
 
-.wrapper{
-    max-width: 1000px;
-    margin: 0 auto;
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-a, li{
-    text-decoration: none;
-    list-style: none;
-    color: var(--nyanza);
+.arrowTop img {
+  background-color: rgba(132, 203, 51, 0.3);
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 }
 
-.headerContainer{
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+.arrowTop img:hover {
+  background-color: var(--ash-gray);
+  color: var(--smoky-black);
 }
 
-.headerContent{
-    max-width: 1200px;
-    padding: 1rem 0 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+p {
+  text-indent: 2rem;
+  text-align: justify;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    font-family: var(--ff-title);
+section {
+  margin-top: 17vh;
+  font-size: 1.5rem;
+  min-height: 30vh;
+  padding: 3rem 0;
 }
 
-.navBar{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-family: var(--ff-subtitle);
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--nyanza);
 }
 
-.btn{
+/* HEADER */
+
+.headerContainer {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+  /* position: sticky;
+  top: 0; */
+  background-color: rgba(16, 11, 0, 0.815);
+}
+
+.headerContent {
+  max-width: 1300px;
+  height: 17vh;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--ff-title);
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--ff-subtitle);
+}
+
+.btn {
+  background-color: var(--yellow-green);
+  color: var(--drab-dark-brown);
+  padding: 0.5rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--ash-gray);
+  color: var(--smoky-black);
+}
+
+/* DESIGN LINE UNDER HEADER */
+
+#line {
+  border: 0.1px solid rgba(255, 255, 255, 0);
+  box-shadow: 1px 1px 2px var(--drab-dark-brown);
+  max-width: 40%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+/* MAIN SECTION */
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  font-family: var(--ff-title);
+  color: var(--yellow-green);
+}
+
+.hero h2 {
+  font-size: 4rem;
+}
+
+.hero h4 {
+  font-size: 3rem;
+}
+
+.about {
+  line-height: 1.5;
+}
+
+.mySkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skillItem img {
+  width: 128px;
+}
+
+.projects {
+}
+
+.projectContainer {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.projectScreen {
+  width: 70%;
+}
+
+.contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 3rem;
+}
+
+.call {
+  padding: 2rem;
+  font-size: 2rem;
+  width: 48rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
     background-color: var(--yellow-green);
-    color: var(--drab-dark-brown);
-    padding: .5rem;
-    border-radius: 30px;
-    transition: all .3s;
+    width: 100%;
+    min-height: 32vh;
 }
 
-.btn:hover{
-    background-color: var(--ash-gray);
+.footerContent{
+    min-height: 32vh;
+    color: var(--smoky-black);
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.footerMain, .footerNav, .footerNav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialLinks{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+footer img{
+    width: 48px;
+    height: 48px;
+}
+
+footer a{ 
     color: var(--smoky-black);
 }
 
-.hero{
-    min-height: 40rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 3rem;
+/* ANIMATION TEMPLATE BASIC */
+
+/* 
+.wave {
+    position: relative;
+    
+    width: 50%;
+    height: 100px; ------>> Altura da forma geométrica, ajuste conforme necessário
+    background-color: #3498db; ------>> Cor de fundo, ajuste conforme necessário
+    animation: wave 2s linear infinite;
 }
 
-.hero h1{
-    font-family: var(--ff-title);
-    color: var(--yellow-green);
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(20deg); ------>> Ajuste a inclinação da onda conforme necessário
+    }
+    50% {
+        transform: rotate(-20deg); ------>> Ajuste a inclinação da onda conforme necessário
+    }
 }
+*/
