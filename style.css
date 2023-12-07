@@ -96,10 +96,12 @@ li {
 /* HEADER */
 
 .headerContainer {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
   /* position: sticky;
+  
   top: 0; */
-  background-color: rgba(16, 11, 0, 0.815);
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .headerContent {
@@ -115,6 +117,7 @@ li {
   display: flex;
   align-items: center;
   font-family: var(--ff-title);
+  font-size: 1.8rem;
 }
 
 .navBar {
@@ -122,6 +125,15 @@ li {
   align-items: center;
   gap: 1rem;
   font-family: var(--ff-subtitle);
+  font-size: 1.5rem;
+}
+
+.navLink {
+  transition: all 0.5s ease;
+}
+
+.navLink:hover {
+  transform: translateY(-3px);
 }
 
 .btn {
@@ -137,16 +149,6 @@ li {
   color: var(--smoky-black);
 }
 
-/* DESIGN LINE UNDER HEADER */
-
-#line {
-  border: 0.1px solid rgba(255, 255, 255, 0);
-  box-shadow: 1px 1px 2px var(--drab-dark-brown);
-  max-width: 40%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-}
-
 /* MAIN SECTION */
 
 .heroContent {
@@ -160,13 +162,33 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 83vh;
+  min-height: 100vh;
 }
 
 .hero h1 {
-  font-size: 8rem;
+  font-size: 5rem;
   font-family: var(--ff-title);
   color: var(--yellow-green);
+
+  opacity: 0; /* Start with the text invisible */
+}
+
+/* HERO ANIMATION */
+
+.heroContent h1 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(
+    1em
+  ); /* Optional: You can add a slight translateY for a subtle upward motion effect */
+  animation: appearAnimation 0.5s ease forwards;
+}
+
+@keyframes appearAnimation {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero h2 {
