@@ -26,6 +26,9 @@ font-family: 'Quicksand', sans-serif;
   --nyanza: #efffc8ff;
   --ash-gray: #a5cbc3ff;
   --drab-dark-brown: #3b341fff;
+
+  --gradColor1: linear-gradient(to left, #24243e, #302b63, #0f0c29);
+  --gradColor2: linear-gradient(to right, #8e9eab, #eef2f3);
 }
 
 html {
@@ -34,8 +37,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 
+
+background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+
+*/
+
 body {
-  background-color: var(--smoky-black);
+  /* background-color: var(--smoky-black); */
+  background: var(--gradColor1);
+
   color: var(--nyanza);
   overflow-x: hidden;
 }
@@ -73,6 +84,10 @@ body {
 p {
   text-indent: 2rem;
   text-align: justify;
+}
+
+.sectionBg {
+  background: var(--gradColor2);
 }
 
 section {
@@ -149,6 +164,31 @@ li {
   color: var(--smoky-black);
 }
 
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #134e5e 0%,
+    #71b280 51%,
+    #134e5e 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 2px #eeeeee3f;
+  border-radius: 50px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 /* MAIN SECTION */
 
 .heroContent {
@@ -200,8 +240,8 @@ li {
 }
 
 .aboutBg {
-  background-color: var(--nyanza);
   color: var(--smoky-black);
+  background: var(--gradColor2);
 }
 
 .about {
