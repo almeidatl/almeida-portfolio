@@ -182,8 +182,8 @@ li {
   background-image: linear-gradient(
     to right,
     #85cb33ff 0%,
-    #71b280 51%,
-    rgb(116, 179, 45) 100%
+    #2ebd50 51%,
+    rgb(116, 190, 32) 100%
   );
   margin: 10px;
   padding: 15px 45px;
@@ -198,7 +198,7 @@ li {
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: top right; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
@@ -239,9 +239,8 @@ li {
 .heroContent h1 span {
   display: inline-block;
   opacity: 0;
-  transform: translateY(
-    1em
-  ); /* Optional: You can add a slight translateY for a subtle upward motion effect */
+  transform: translateY(1em);
+  /* Optional: You can add a slight translateY for a subtle upward motion effect */
   animation: appearAnimation 0.5s ease forwards;
 }
 
@@ -258,9 +257,6 @@ li {
 
 .hero h4 {
   font-size: 3rem;
-}
-
-.aboutBg {
 }
 
 .about {
@@ -281,11 +277,11 @@ li {
 
 .profileImg {
   max-width: 100%;
-  border-radius: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .skillsBg {
-  /* background-image: url(assets/bg-man-working.jpg); */
   background-size: cover;
   background-position: center 50%;
 }
@@ -304,9 +300,7 @@ li {
   display: block;
   z-index: 999;
   cursor: pointer;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease;
+  transition: all 0.3s ease;
 }
 
 /*change the number below to scale to the appropriate size*/
@@ -322,9 +316,6 @@ li {
 
 .skillItem img {
   width: 128px;
-}
-
-.projects {
 }
 
 .projectsTitle {
@@ -343,7 +334,6 @@ li {
 }
 
 .contact {
-  font-size: ;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -410,25 +400,3 @@ footer img {
 footer a {
   color: var(--nyanza);
 }
-
-/* ANIMATION TEMPLATE BASIC */
-
-/* 
-.wave {
-    position: relative;
-    
-    width: 50%;
-    height: 100px; ------>> Altura da forma geométrica, ajuste conforme necessário
-    background-color: #3498db; ------>> Cor de fundo, ajuste conforme necessário
-    animation: wave 2s linear infinite;
-}
-
-@keyframes wave {
-    0%, 100% {
-        transform: rotate(20deg); ------>> Ajuste a inclinação da onda conforme necessário
-    }
-    50% {
-        transform: rotate(-20deg); ------>> Ajuste a inclinação da onda conforme necessário
-    }
-}
-*/
