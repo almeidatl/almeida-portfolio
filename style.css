@@ -257,6 +257,22 @@ li {
   gap: 5rem;
 }
 
+.imgPrev {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+.imgPrev:hover {
+  transform: scale(1.1);
+}
+
 .skillItem {
   display: flex;
   align-items: center;
@@ -270,23 +286,35 @@ li {
 .projects {
 }
 
+.projectsTitle {
+  margin-bottom: 2rem;
+}
+
 .projectContainer {
   display: flex;
-
-  align-items: center;
-  justify-content: center;
+  gap: 2rem;
 }
 
 .projectScreen {
-  width: 70%;
+  max-width: 100%;
+  height: 30vh;
+  border-radius: 10px;
 }
 
 .contact {
+  font-size: ;
   height: 60vh;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 3rem;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  max-width: 70%;
+  text-align: center;
 }
 
 .call {
@@ -296,6 +324,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 0.5rem;
 }
 footer {
   background-color: var(--nyanza);
