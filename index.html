@@ -1,126 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Almeida Dev Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header id="header" class="headerContainer">
-        <div class="headerContent wrapper">
-            <div class="logo">
-                <h1 class="logoTitle">Almeida</h1>
-            </div>
-            <nav>
-                <ul class="navBar">
-                    <li class="navLink"><a href="#about">About</a></li>
-                    <li class="navLink"><a href="#skills">Skills</a></li>
-                    <li class="navLink"><a href="#projects">Projects</a></li>
-                    <li><a class="btn-grad"  href="#contact">Say Hello</a></li>
-                </ul>
-            </nav>
+      <div class="headerContent wrapper">
+        <div class="logo">
+          <h1 class="logoTitle">Almeida</h1>
         </div>
+        <nav>
+          <ul class="navBar">
+            <li class="navLink"><a href="#about">About</a></li>
+            <li class="navLink"><a href="#skills">Skills</a></li>
+            <li class="navLink"><a href="#projects">Projects</a></li>
+            <li><a class="btn-grad" href="#contact">Say Hello</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    
+
     <main>
+      <div class="heroBg">
         <section class="hero wrapper">
-            
-            <div class="heroContent">
-                <h2>Hi,</h2>
-                <h1 class="animatedText" >I'm a Web Developer</h1>
-                <!-- <h4>Your Front-End Developer</h4> -->
+          <div class="heroContent">
+            <h2>Hi,</h2>
+            <h1 class="animatedText">I'm a Web Developer</h1>
+          </div>
+        </section>
+      </div>
+
+      <div class="aboutBg sectionBg">
+        <div class=" ">
+          <section class="about wrapper center" id="about">
+            <h2>About Me</h2>
+            <div class="aboutContainer">
+              <div class="aboutSide">
+                <p>
+                  Hey there, fellow pixel enthusiasts! I'm Almeida, a front-end
+                  developer on a mission to turn caffeine into code and ideas
+                  into interactive masterpieces.
+                </p>
+                <p>
+                  My language skills extend beyond the syntax of HTML and CSS;
+                  I'm fluent in the language of creativity and innovation, my
+                  playground is the intersection of design and functionality.
+                  I'm that guy who is as obsessed with perfecting the layout as
+                  I am with choosing the right shade of blue. Because let's
+                  admit it, a captivating interface is like a well-written story
+                  — it draws people in and keeps them engaged from the first
+                  click to the final scroll.
+                </p>
+              </div>
+              <div class="aboutSide">
+                <img class="profileImg" src="assets/foto-quadrada.png" alt="" />
+              </div>
             </div>
-                
+          </section>
+        </div>
+      </div>
+
+      <div class="skillsBg sectionBg">
+        <div class="">
+          <section class="skills wrapper" id="skills">
+            <h2 style="text-align: left; padding: 2rem 0">My Skills</h2>
+            <div class="mySkills">
+              <div class="skillItem">
+                <img src="assets/html2.png" class="imgPrev" alt="" />
+                <p>
+                  With semantic tags and elements, I create the foundation for
+                  clear, accessible, and well-organized web pages.
+                </p>
+              </div>
+              <div class="skillItem">
+                <img src="assets/css.png" class="imgPrev" alt="" />
+                <p>
+                  I wield its power to craft visually appealing layouts, define
+                  styles, and ensure a nice user experience. From responsive
+                  design to animations, CSS is my go-to for making websites
+                  visually stunning.
+                </p>
+              </div>
+              <div class="skillItem">
+                <img src="assets/js.png" class="imgPrev" alt="" />
+                <p>
+                  From building feature-rich applications to adding that extra
+                  touch of interactivity, JavaScript is my programming language
+                  of choice for client-side development.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="sectionBg">
+        <section class="projects wrapper" id="projects">
+          <h1 class="projectsTitle">Some of what I do</h1>
+          <div class="projectContainer">
+            <div class="projectBox">
+              <img
+                class="projectScreen imgPrev"
+                src="assets/Screenshot Frontend Mentor News homepage.png"
+                alt=""
+              />
+            </div>
+
+            <div class="projectBox">
+              <img
+                class="projectScreen imgPrev"
+                src="assets/Screenshot  The man who saved a billion.png"
+                alt=""
+              />
+            </div>
+
+            <div class="projectBox">
+              <img
+                class="projectScreen imgPrev"
+                src="assets/Screenshot Zalli.png"
+                alt=""
+              />
+            </div>
+          </div>
         </section>
-        
-        <!-- <div class="line" id="line"> -->
-        
-        </div>
+      </div>
 
-        <div class="aboutBg ">
-            <section class="about wrapper center" id="about" >
-                <h2>About Me</h2>
-                <div>
-                    <p>Hey there, fellow pixel enthusiasts! I'm Almeida, a front-end developer on a mission to turn caffeine into code and ideas into interactive masterpieces.</p>
-                    <p>My language skills extend beyond the syntax of HTML and CSS; I'm fluent in the language of creativity and innovation, my playground is the intersection of design and functionality. I'm that guy who is as obsessed with perfecting the layout as I am with choosing the right shade of blue. Because let's admit it, a captivating interface is like a well-written story — it draws people in and keeps them engaged from the first click to the final scroll.</p>
-                </div>
-            </section>
-        </div>
-
-        <div class="skillsBg">
-            <section class="skills wrapper" id="skills">
-                <h2 style="text-align: left; padding: 2rem 0;">My Skills</h2>
-                <div class="mySkills">
-                    <div class="skillItem">
-                        <img src="assets/html2.png" class="imgPrev" alt="">
-                        <p>With semantic tags and elements, I create the foundation for clear, accessible, and well-organized web pages.</p>
-                    </div>
-                    <div class="skillItem">
-                        <img src="assets/css.png" class="imgPrev" alt="">
-                        <p>I wield its power to craft visually appealing layouts, define styles, and ensure a nice user experience. From responsive design to animations, CSS is my go-to for making websites visually stunning.</p>
-                    </div>
-                    <div class="skillItem">
-                        <img src="assets/js.png" class="imgPrev" alt="">
-                        <p>From building feature-rich applications to adding that extra touch of interactivity, JavaScript is my programming language of choice for client-side development.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="sectionBg ">
-            <section class="projects  wrapper" id="projects">
-                <h1 class="projectsTitle">Some of what I do</h1>
-                <div class="projectContainer ">
-                    
-                    
-                    <div class="projectBox">
-                        <img class="projectScreen imgPrev" src="assets/Screenshot Frontend Mentor News homepage.png" alt="">
-                    </div>
-
-                    <div class="projectBox">
-                        <img class="projectScreen imgPrev" src="assets/Screenshot  The man who saved a billion.png" alt="">
-                    </div>
-
-                    <div class="projectBox">
-                        <img class="projectScreen imgPrev" src="assets/Screenshot Zalli.png" alt="">
-                    </div>
-                    
-                </div>
-            </section>
-        </div>
-
+      <div class="sectionBg">
         <section class="contact wrapper" id="contact">
-            <p class="contactTitle"><strong>Hit that button</strong>, and let's get started on creating something <strong>awesome</strong>!</p>
-            
-            <a class="btn-grad call" href="#">Say Hello!</a>
-            
+          <p class="contactTitle">
+            <strong>Hit that button</strong>, and let's get started on creating
+            something <strong>awesome</strong>!
+          </p>
+          <a class="btn-grad call" href="#">Say Hello!</a>
         </section>
+      </div>
     </main>
 
-    <div class="arrowTop ">
-        <a class="" href="#header"><img src="assets/seta-para-cima.png" alt=""></a>
+    <div class="arrowTop">
+      <a class="" href="#header"
+        ><img src="assets/seta-para-cima.png" alt=""
+      /></a>
     </div>
     <footer>
-        <div class="footerContent">
-            <div class="footerMain">
-                <p>Developed by <a class="linkAlmeida" href="https://www.linkedin.com/in/almeidatl/" target="_blank"><strong>Almeida</strong></a></p>
-                <p>&copy All Rights Reserved 2023</p>
-                <div class="socialLinks">
-                    <a href="https://github.com/almeidatl" target="_blank"><img src="assets/github(2).png" alt=""></a>
-                    <a href="https://www.linkedin.com/in/almeidatl/" target="_blank"><img src="assets/linkedin.png" alt=""></a>
-                </div>
-            </div>
-            <div class="footerNav">
-                <ul class="navBar">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </div>
+      <div class="footerContent">
+        <div class="footerMain">
+          <p>
+            Developed by
+            <a
+              class="linkAlmeida"
+              href="https://www.linkedin.com/in/almeidatl/"
+              target="_blank"
+              ><strong>Almeida</strong></a
+            >
+          </p>
+          <p>&copy All Rights Reserved 2023</p>
+          <div class="socialLinks">
+            <a href="https://github.com/almeidatl" target="_blank"
+              ><img src="assets/github(2).png" alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/almeidatl/" target="_blank"
+              ><img src="assets/linkedin.png" alt=""
+            /></a>
+          </div>
         </div>
+        <div class="footerNav">
+          <ul class="navBar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
