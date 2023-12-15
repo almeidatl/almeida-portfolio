@@ -118,6 +118,10 @@ li {
   color: var(--nyanza);
 }
 
+.title {
+  color: var(--yellow-green);
+}
+
 /* HEADER */
 
 .headerContainer {
@@ -177,9 +181,9 @@ li {
 .btn-grad {
   background-image: linear-gradient(
     to right,
-    #134e5e 0%,
+    #85cb33ff 0%,
     #71b280 51%,
-    #134e5e 100%
+    rgb(116, 179, 45) 100%
   );
   margin: 10px;
   padding: 15px 45px;
@@ -187,7 +191,7 @@ li {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: var(--drab-dark-brown);
   box-shadow: 0 0 2px #eeeeee3f;
   border-radius: 50px;
   display: block;
