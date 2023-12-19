@@ -1,3 +1,5 @@
+//ANIMATION -- HERO TITLE APPEARING
+
 document.addEventListener('DOMContentLoaded', function () {
     const animatedText = document.querySelector('.animatedText');
     const text = animatedText.textContent;
@@ -12,4 +14,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     animatedText.style.opacity = 1; // Make the text visible
+
+    //HAMBURGUER MENU TRANSFORM WHEN RESPONSIVE
+
+
+    // const mobileBtn = document.querySelector('.mobileMenuBtn')
+    // const mobileMenu = document.querySelector('.mobileMenu')
+
+    // mobileBtn.addEventListener('click', () => {
+    
+    // mobileMenu.classList.add('mobileMenuOpen')    
+    // })
+
+    const mobileBtn = document.querySelector('.mobileMenuBtn');
+    const mobileMenu = document.querySelector('.mobileMenu');
+    const burgerIcon = document.querySelector('.burgerIcon');
+    const closeIcon = document.querySelector('.closeIcon');
+
+    mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('mobileMenuOpen');
+        burgerIcon.classList.toggle('hide');
+        closeIcon.classList.toggle('show');
+    });
+
 });
+

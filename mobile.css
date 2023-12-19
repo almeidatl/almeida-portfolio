@@ -16,6 +16,80 @@
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .headerContainer {
+    /* position: absolute; */
+
+    width: 100%;
+  }
+
+  .headerContent {
+    width: 100%;
+
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    z-index: 5;
+  }
+
+  .mobileMenuBtn {
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+  }
+
+  .burgerIcon {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .mobileMenuOpen {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+  }
+
+  .mobileNavBar {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .mobileNavLink {
+    font-size: 1.5rem;
+  }
+
   .aboutContainer {
     flex-direction: column-reverse;
     align-items: center;
@@ -33,5 +107,17 @@
     max-width: 80%;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .heroContent {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
   }
 }
