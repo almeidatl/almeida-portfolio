@@ -83,6 +83,9 @@ html {
     z-index: 5;
   }
 
+  .mobileMenu {
+  }
+
   .mobileMenuBtn {
     display: flex;
     z-index: 5;
@@ -130,6 +133,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
   }
 
   .mobileNavBar li {

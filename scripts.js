@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // mobileMenu.classList.add('mobileMenuOpen')    
     // })
 
+
+
+    
     const mobileBtn = document.querySelector('.mobileMenuBtn');
     const mobileMenu = document.querySelector('.mobileMenu');
     const burgerIcon = document.querySelector('.burgerIcon');
@@ -33,23 +36,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
     mobileBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('mobileMenuOpen');
-        burgerIcon.classList.toggle('hide');
-        closeIcon.classList.toggle('show');
+        
     });
 
     //FUNCTION TO CLOSE MENU WHEN LINK IS CLICKED
 
     
-    const mobileLink = document.querySelectorAll('.mobileNavLink')
+     document.querySelectorAll('.mobileNavLink').forEach(function(link) {
+         link.addEventListener('click', closeMobileMenu);
+     });
     
-    function closeMenu(){
-        document.querySelector('.mobileMenu').classList.add('hide')
-    }
-
-    document.querySelectorAll('.mobileNavLink').forEach(function(link) {
-        link.addEventListener('click', closeMenu);
-      });
-
+     function closeMobileMenu() {
+        // Lógica para fechar o menu móvel
+         // Isso pode envolver alterar classes, estilos ou esconder elementos
+         mobileMenu.classList.toggle('mobileMenuOpen')
+         
+     }
+    
     
    
     
