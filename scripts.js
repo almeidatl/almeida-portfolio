@@ -37,5 +37,22 @@ document.addEventListener('DOMContentLoaded', function () {
         closeIcon.classList.toggle('show');
     });
 
+    //FUNCTION TO CLOSE MENU WHEN LINK IS CLICKED
+
+    
+    const mobileLink = document.querySelectorAll('.mobileNavLink')
+    
+    function closeMenu(){
+        document.querySelector('.mobileMenu').classList.add('hide')
+    }
+
+    document.querySelectorAll('.mobileNavLink').forEach(function(link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+    
+   
+    
+
 });
 
