@@ -18,7 +18,7 @@ function Hero(){
                             </form>
                         </div>
                     </div>
-                    <img src="../src/assets/foto-quadrada.png" alt="alt" />
+                    <img src="/static/foto-quadrada.png" alt="alt" />
                 </section>
             </div>
             
