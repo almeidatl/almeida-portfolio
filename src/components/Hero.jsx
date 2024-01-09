@@ -18,7 +18,7 @@ function Hero(){
                             </form>
                         </div>
                     </div>
-                    <img src="foto-quadrada.png" alt="alt" />
+                    <div className="hero-image"></div>
                 </section>
             </div>
             
