@@ -5,16 +5,31 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:wght@400;700&display=swap');
+
+/* 
+font-family: 'Bungee', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
 :root{
   --ff-title: 'Poppins', sans-serif;
+  --ff-title-big: 'Bungee', sans-serif;
   --ff-text: 'Open Sans', sans-serif;
+  --ff-text2: 'Space Mono', monospace ;
+
+
 
   --black: #222222;
   --white: #e9e4dd;
   --orange: rgb(235, 166, 38);
+  --highlight:rgb(235, 166, 38);
+
 
   --background: #e9e4dd;
   --text-color :#222222;
+
+  --title-color: #222222;
 }
 
 * {
@@ -31,6 +46,8 @@ html {
 body{
   background-color: var(--background);
   color: var(--text-color);
+
+  font-family: var(--ff-text);
 }
 
 section{
@@ -42,9 +59,14 @@ section{
   margin: 0 auto;
 }
 
+.center{
+  display: grid;
+  place-items: center;
+}
+
 .title {
   font-family: var(--ff-title);
-  font-weight: 700;
+  font-weight: 900;
   color: var(--black);
   font-size: 3rem;
   padding: 1rem 0;

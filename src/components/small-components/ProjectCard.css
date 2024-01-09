@@ -25,9 +25,9 @@
 }
 
 .portfolioTitle{
-    font-family: var(--ff-title);
-    font-size: 3rem;
-    font-weight: 900;
+    font-family: var(--ff-text2);
+    font-size: 2rem;
+    font-weight: 300;
     text-decoration: none;
 }
 

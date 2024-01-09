@@ -2,7 +2,7 @@ import './GetInTouch.css'
 
 const GetInTouch = () =>{
     return(
-        <div className="call">
+        <div className="call center">
             <form action="">
                 <input className='input-email' type="email" name="email" id="email" placeholder='example@email.com' />
                 <input className='btn' type="submit" value="Let's get in touch" />

@@ -14,12 +14,7 @@ li {
   height: 8rem;
 }
 
-.logo h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  font-family: var(--ff-title);
-  color: var(--text-color);
-}
+
 
 .nav-bar {
   font-family: var(--ff-text);

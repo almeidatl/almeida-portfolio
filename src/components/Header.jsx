@@ -9,7 +9,7 @@ function Header(){
                     <div className="container">
                         <section className="header-content">
                             <div className="logo">
-                                <h1>Almeida</h1>
+                                <h1 className='title'>Almeida</h1>
                             </div>
                             <nav>
                                 <ul className="nav-bar">

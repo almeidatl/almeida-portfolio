@@ -1,4 +1,23 @@
-.hero {
+.banner{
+  font-family: var(--ff-text2);
+  font-weight: 700;
+  font-size: 9rem;
+  line-height: 6.5rem;
+  letter-spacing: -20px;
+}
+
+.color-strong{
+  color: var(--highlight);
+}
+
+/* .banner-container{
+  max-width: 100%;
+  margin: 0 ;
+} */
+
+
+
+/* .hero {
   font-family: var(--ff-text);
   color: var(--text-color);
   display: flex;
@@ -21,4 +40,4 @@
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.61);
   background-image: url(/foto-quadrada.png);
   background-size: cover;
-}
+} */

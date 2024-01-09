@@ -1,7 +1,7 @@
 .footer-bg{
     width: 100%;
-    background-color: var(--white);
-    color: var(--white);
+    background-color: var(--highlight);
+    color: var(--black);
     height: 30vh;
 }
 .footer-content{
