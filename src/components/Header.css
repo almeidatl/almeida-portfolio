@@ -4,7 +4,7 @@ a,
 li {
   text-decoration: none;
   list-style: none;
-  color: #222222;
+  color: var(--text-color);
 }
 
 .header-content{
@@ -18,7 +18,7 @@ li {
   font-size: 3rem;
   font-weight: 900;
   font-family: var(--ff-title);
-  color: #222222;
+  color: var(--text-color);
 }
 
 .nav-bar {
@@ -38,8 +38,8 @@ li {
 }
 
 .contact{
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--text-color);
+  color: var(--background);
   padding: .7rem;
   border-radius: 10px;
   transition: all .3s ease;

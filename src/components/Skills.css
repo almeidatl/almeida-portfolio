@@ -2,17 +2,17 @@
 
 
 .skills-content {
-  background-color: var(--white);
+  background-color: var(--background);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: var(--ff-text);
-  color: var(--black);
+  color: var(--text-color);
 }
 
 .skill-card {
-  border: 1px solid #2222223d;
+  border: 1px solid var(--text-color);
   border-radius: 10px;
   padding: 20px;
   width: 200px;

@@ -1,6 +1,6 @@
 .hero {
   font-family: var(--ff-text);
-  color: var(--black);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,45 +13,6 @@
   line-height: 1.5;
   letter-spacing: 3px;
 }
-
-.call {
-  padding: 2rem 0;
-}
-
-.call h2 {
-  letter-spacing: 0.5rem;
-}
-
-form {
-  display: flex;
-
-  align-items: center;
-
-  gap: 0.5rem;
-}
-
-.input-email {
-  font-size: 1rem;
-  padding: 0.5rem;
-  border-radius: 10px;
-}
-
-.btn {
-  border: none;
-  background-color: var(--black);
-  color: var(--white);
-  padding: 0.7rem;
-  font-size: 1.3rem;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background-color: var(--orange);
-  color: var(--black);
-}
-
 
 .hero-image{
   width: 100%;

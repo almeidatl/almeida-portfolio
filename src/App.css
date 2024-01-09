@@ -12,6 +12,9 @@ font-family: 'Poppins', sans-serif;
   --black: #222222;
   --white: #e9e4dd;
   --orange: rgb(235, 166, 38);
+
+  --background: #e9e4dd;
+  --text-color :#222222;
 }
 
 * {
@@ -26,7 +29,8 @@ html {
 }
 
 body{
-  background-color: #e9e4dd;
+  background-color: var(--background);
+  color: var(--text-color);
 }
 
 section{

@@ -1,4 +1,5 @@
 import './Hero.css'
+import GetInTouch from './small-components/GetInTouch'
 
 function Hero(){
     return(
@@ -11,12 +12,7 @@ function Hero(){
                             Hey there! <strong>Almeida</strong> here, a <strong>front-end developer</strong> with a passion
                             for translating <strong>ideas</strong> into <strong>immersive digital experiences</strong>.
                         </p>
-                        <div className="call">
-                            <form action="">
-                                <input className='input-email' type="email" name="email" id="email" placeholder='example@email.com' />
-                                <input className='btn' type="submit" value="Let's get in touch" />
-                            </form>
-                        </div>
+                        <GetInTouch />
                     </div>
                     <div className="hero-image"></div>
                 </section>
