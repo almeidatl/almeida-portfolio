@@ -1,5 +1,4 @@
 import './Hero.css'
-import foto-quadrada.png from '/static/foto-quadrada.png'
 
 function Hero(){
     return(
