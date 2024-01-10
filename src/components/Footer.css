@@ -2,10 +2,10 @@
     width: 100%;
     background-color: var(--text-color);
     color: var(--background);
-    min-height: 15vh;
+    min-height: 20vh;
 }
 .footer-content{
-    min-height: 15vh;
+    min-height: 20vh;
 
     display: flex;
     flex-direction: column;
