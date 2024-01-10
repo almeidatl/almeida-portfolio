@@ -1,9 +1,9 @@
-.projectCard{
+.project-card{
     width: 300px;
     height: 200px;
     border-radius: 10px;
     
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     color: var(--text-color);
     padding: .5rem;
     
@@ -12,12 +12,11 @@
 
     cursor: pointer;
 
-    position: relative;
-    overflow: hidden;
+    
     transition: .3s ease-in;
 }
 
-.projectCard:hover{
+.project-card:hover{
     background-color: var(--text-color);
     color: var(--background);
     animation: preencherCard .3s forwards;

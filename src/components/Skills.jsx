@@ -1,4 +1,4 @@
-import './Skills.css'; // Create a separate CSS file for styling
+import './Skills.css'
 
 const Skills = () => {
   return (

@@ -1,5 +1,5 @@
-import React from 'react'
 import './ProjectCard.css'
+import '../mobile.css'
 
 
 const ProjectCard = (props) =>{
@@ -7,7 +7,7 @@ const ProjectCard = (props) =>{
         <>
             <div className="container">
                 <a target='_blank' href={props.projectLink}>
-                    <div className="projectCard">
+                    <div className="project-card">
                         <h1 className="portfolioTitle">
                             {props.projectName}
                         </h1>
