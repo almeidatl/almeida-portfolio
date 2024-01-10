@@ -13,19 +13,19 @@ const Footer = () => {
                             </div>
                             <div className="footer-social">
                                 <a href="https://www.linkedin.com/in/almeidatl" target='_blank'>
-                                    <img src="public/linkedin-in.svg" alt="" />
+                                    <img src="/linkedin-in.svg" alt="" />
                                 </a>
                                 <a href="https://github.com/almeidatl" target='_blank'>
-                                    <img src="public/github-alt.svg" alt="" />
+                                    <img src="/github-alt.svg" alt="" />
                                 </a>
                                 <a href="https://www.instagram.com/almeidatl" target='_blank'>
-                                    <img src="public/instagram.svg" alt="" />
+                                    <img src="/instagram.svg" alt="" />
                                 </a>
                             </div>
                         </div>
 
                         <div className="footer-main">
-                            <p>&copy; 2024 All Rights Reserved </p>
+                            <p>&copy; {new Date().getFullYear()} All Rights Reserved </p>
                         </div>
                         <div className="footer-message">
                             <div className="footer-line"></div>
