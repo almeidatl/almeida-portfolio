@@ -2,10 +2,10 @@
     width: 100%;
     background-color: var(--text-color);
     color: var(--background);
-    min-height: 37vh;
+    min-height: 15vh;
 }
 .footer-content{
-    min-height: 37vh;
+    min-height: 15vh;
 
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 
 .footer-header .title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--highlight);
     
 }
@@ -34,7 +34,6 @@
 }
 
 .footer-main{
-    min-height: 14vh;
     display: flex;
     align-items: end;
 }

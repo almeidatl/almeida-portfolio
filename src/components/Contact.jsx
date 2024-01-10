@@ -1,5 +1,6 @@
 import GetInTouch from "./small-components/GetInTouch"
 import './Contact.css'
+
 const Contact = () => {
     return(
         <div className="container">

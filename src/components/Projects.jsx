@@ -1,6 +1,4 @@
 import './Projects.css'
-import './mobile.css'
-
 import ProjectCard from './small-components/ProjectCard.jsx'
 
 const Projects = () =>{

@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .projects-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 80%;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .projects-content {
+    display: flex;
+  }
+
+  .project-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  .footer-main {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-message,
+  .footer-main {
+    font-size: 1.3rem;
+  }
+
+  .contact-content{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 470px){
+  html{
+    font-size: 11px;
+  }
+
+  header ul{
+  }
+}

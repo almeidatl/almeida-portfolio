@@ -1,5 +1,5 @@
 import './App.css'
-import './components/mobile-css/mobile.css'
+import './components/mobile.css'
 
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'

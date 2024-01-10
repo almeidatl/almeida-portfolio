@@ -1,6 +1,4 @@
 import './ProjectCard.css'
-import '../mobile.css'
-
 
 const ProjectCard = (props) =>{
     return(

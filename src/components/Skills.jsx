@@ -1,4 +1,5 @@
 import './Skills.css'
+import './mobile.css'
 
 const Skills = () => {
   return (
