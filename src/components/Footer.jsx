@@ -13,13 +13,13 @@ const Footer = () => {
                             </div>
                             <div className="footer-social">
                                 <a href="https://www.linkedin.com/in/almeidatl" target='_blank'>
-                                    <img src="assets/linkedin-in.svg" alt="" />
+                                    <img src="public/linkedin-in.svg" alt="" />
                                 </a>
                                 <a href="https://github.com/almeidatl" target='_blank'>
-                                    <img src="assets/github-alt.svg" alt="" />
+                                    <img src="public/github-alt.svg" alt="" />
                                 </a>
                                 <a href="https://www.instagram.com/almeidatl" target='_blank'>
-                                    <img src="assets/instagram.svg" alt="" />
+                                    <img src="public/instagram.svg" alt="" />
                                 </a>
                             </div>
                         </div>
