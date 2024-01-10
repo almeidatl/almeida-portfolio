@@ -12,18 +12,12 @@ function Header(){
                                 <h1 className='title'>Almeida</h1>
                             </div>
                             <nav>
-                                <ul className="nav-bar">
-                                    {/* <a href="#about">
-                                        <li className="nav-item">About</li>
-                                    </a> */}
-                                    {/* <a href="#skills">
-                                        <li className="nav-item">Skills</li>
-                                    </a> */}
+                                <ul className="nav-bar">                                    
                                     <a href="#projects">
                                         <li className="nav-item">Projects</li>
                                     </a>
                                     <a href="#contact">
-                                        <li className="contact">Contact</li>
+                                        <li className="nav-item">Contact</li>
                                     </a>
                                 </ul>
                             </nav>

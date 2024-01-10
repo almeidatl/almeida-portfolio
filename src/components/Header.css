@@ -9,35 +9,16 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  height: 10rem;
 }
 
 .nav-bar {
   font-family: var(--ff-text);
+  font-weight: 300;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-}
-
-.nav-item {
-  font-size: 1.19rem;
-  transition: 0.3s ease-in;
-}
-
-.nav-item:hover {
-}
-
-.contact {
-  background-color: var(--text-color);
-  color: var(--background);
-  padding: 0.7rem;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-.contact:hover {
-  background-color: var(--orange);
-  color: var(--black);
 }
 
 /*  HOVER ANIMATION ON NAVBAR */
@@ -75,4 +56,17 @@ li {
 .nav-item:hover::after,
 .nav-item:focus::after {
   transform: scale(1);
+}
+
+.contact {
+  background-color: var(--text-color);
+  color: var(--background);
+  padding: 0.7rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact:hover {
+  background-color: var(--orange);
+  color: var(--black);
 }
