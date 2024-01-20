@@ -30,7 +30,31 @@
     cursor: pointer;
     display: flex;
     gap: 1rem;
-    color: var(--highlight);
+}
+
+.social-icon{
+    width: 32px;
+    height: 32px;
+    background-color: var(--highlight);    
+    transition: .2s ease-in;
+}
+
+.social-icon:hover{
+    scale: 1.1;
+    background-color: var(--white);
+}
+
+.social-linkedin{
+    -webkit-mask: url(/linkedin-in.svg) no-repeat center;
+    mask: url(/linkedin-in.svg) no-repeat center;
+}
+.social-instagram{
+    -webkit-mask: url(/instagram.svg) no-repeat center;
+    mask: url(/instagram.svg) no-repeat center;
+}
+.social-github{
+    -webkit-mask: url(/github-alt.svg) no-repeat center;
+    mask: url(/github-alt.svg) no-repeat center;
 }
 
 .footer-main{
