@@ -9,32 +9,32 @@ const Projects = () =>{
                 <ProjectCard 
                 projectName='ZALLI' 
                 projectLink = 'https://landing-page-zalli.vercel.app'
-                backgroundImg = '/public/zalli-card.png'
+                backgroundImg = '/zalli-card.png'
                 />
                 <ProjectCard 
                 projectName='JD' 
                 projectLink = 'https://jdeletrica.vercel.app/'
-                backgroundImg = '/public/jd-card.png' 
+                backgroundImg = '/jd-card.png' 
                 />
                 <ProjectCard 
                 projectName='Card' 
                 projectLink = 'https://product-rev-card.vercel.app/'
-                backgroundImg = '/public/preview-card.png' 
+                backgroundImg = '/preview-card.png' 
                 />
                 <ProjectCard 
                 projectName='Dr. NORMAN' 
                 projectLink = 'https://themanwhosaved.netlify.app/' 
-                backgroundImg = '/public/dr-card.png'
+                backgroundImg = '/dr-card.png'
                 />
                 <ProjectCard 
                 projectName='JS Doc' 
                 projectLink = 'https://documentation-js.netlify.app/'
-                backgroundImg = '/public/jsdoc-card.png' 
+                backgroundImg = '/jsdoc-card.png' 
                 />
                 <ProjectCard 
                 projectName='Survey Form' 
                 projectLink = 'https://fcc-form-survey.netlify.app/'
-                backgroundImg = '/public/survey-card.png' 
+                backgroundImg = '/survey-card.png' 
                 />
             </section>
         </div>
