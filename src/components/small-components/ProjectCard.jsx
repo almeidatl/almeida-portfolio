@@ -5,10 +5,8 @@ const ProjectCard = (props) =>{
         <>
             <div className="container">
                 <a target='_blank' href={props.projectLink}>
-                    <div className="project-card">
-                        <h1 className="portfolioTitle">
-                            {props.projectName}
-                        </h1>
+                    <div className="project-card" style={{backgroundImage: `url(${props.backgroundImg})`}}>
+                        
                     
                     </div>
                 </a>
@@ -18,3 +16,4 @@ const ProjectCard = (props) =>{
 }
 
 export default ProjectCard
+    
