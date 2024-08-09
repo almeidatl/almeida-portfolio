@@ -4,7 +4,7 @@ import ProjectCard from './small-components/ProjectCard.jsx'
 const Projects = () =>{
     return(
         <div className="container">
-            <h2 className="title" id="projects">My recent work</h2>
+            <h2 className="title" id="projects-title">My recent work</h2>
             <section className="projects-content" >
                 <ProjectCard 
                 projectName='ZALLI' 
