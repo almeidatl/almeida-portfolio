@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="container">
       <h2 className="title" id="projects-title">
-        My recent work
+        Trabalho recente
       </h2>
       <section className="projects-content">
         <ProjectCard

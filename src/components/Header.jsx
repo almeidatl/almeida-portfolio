@@ -14,10 +14,10 @@ function Header(){
                             <nav>
                                 <ul className="nav-bar">                                    
                                     <a href="#projects">
-                                        <li className="nav-item">Projects</li>
+                                        <li className="nav-item">Projetos</li>
                                     </a>
                                     <a href="#contact">
-                                        <li className="nav-item">Contact</li>
+                                        <li className="nav-item">Contato</li>
                                     </a>
                                 </ul>
                             </nav>

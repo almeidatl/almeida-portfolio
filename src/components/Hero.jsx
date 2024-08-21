@@ -9,8 +9,8 @@ function Hero(){
 
                     
                     <h1 className="banner">
-                        Hi, <br />
-                            I'm your new <br /> <strong className='color-strong'>Front-End Developer</strong>
+                        Olá, <br />
+                            Sou seu novo <br /> <strong className='color-strong'>Desenvolvedor Front-End</strong>
                     </h1>
                     
 
