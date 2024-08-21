@@ -26,7 +26,7 @@ const Projects = () =>{
                 projectLink = 'https://themanwhosaved.netlify.app/' 
                 backgroundImg = '/dr-card.png'
                 />
-                <ProjectCard 
+                {/* <ProjectCard 
                 projectName='JS Doc' 
                 projectLink = 'https://documentation-js.netlify.app/'
                 backgroundImg = '/jsdoc-card.png' 
@@ -35,7 +35,7 @@ const Projects = () =>{
                 projectName='Survey Form' 
                 projectLink = 'https://fcc-form-survey.netlify.app/'
                 backgroundImg = '/survey-card.png' 
-                />
+                /> */}
             </section>
         </div>
     )
