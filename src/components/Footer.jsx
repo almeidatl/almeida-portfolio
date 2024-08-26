@@ -18,9 +18,9 @@ const Footer = () => {
                                 <a href="https://github.com/almeidatl" target='_blank'>
                                     <div className="social-github social-icon"></div>
                                 </a>
-                                <a href="https://www.instagram.com/almeidatl" target='_blank'>
+                                {/* <a href="https://www.instagram.com/almeidatl" target='_blank'>
                                     <div className="social-instagram social-icon"></div>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
 

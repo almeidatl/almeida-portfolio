@@ -1,9 +1,20 @@
 
 .projects-content{
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
 }
+
+@media (max-width: 1400px){
+    .projects-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+@media (max-width: 768px){
+    .projects-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+}}
 
 #projects-title{
     padding-top: 2rem;

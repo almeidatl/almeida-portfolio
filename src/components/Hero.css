@@ -9,6 +9,14 @@
   min-height: 80%;
 }
 
+@media( max-width:768px ){
+  .banner{
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -8px;
+  }
+}
+
 .color-strong{
   color: var(--highlight);
 }
