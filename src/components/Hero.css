@@ -3,8 +3,8 @@
 .banner{
   font-family: var(--ff-text2);
   font-weight: 700;
-  font-size: 9rem;
-  line-height: 6.5rem;
+  font-size: 14rem;
+  line-height: 10rem;
   letter-spacing: -20px;
   min-height: 80%;
 }
